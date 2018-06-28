@@ -19,3 +19,15 @@ see also: xsv provides basic stats for csv.
 ## Example Usage
 
 Histogram of values, user can see distribution, then click on an outlier bin and see the rows that contributed to that bin.
+
+## Design notes
+
+Statistics are computed on the fly.
+
+How will the rows be referenced?
+
+xsv crate has examples of things like stat sampling, etc. with csv crate. So should look at it.
+
+Use:
+- https://github.com/LeoTindall/libui-rs
+- https://github.com/BurntSushi/xsv

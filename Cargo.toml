@@ -1,6 +1,8 @@
 [package]
+authors = ["Walther Chen <walther.chen@gmail.com>"]
 name = "calliope"
 version = "0.1.0"
-authors = ["Walther Chen <walther.chen@gmail.com>"]
 
 [dependencies]
+csv = "1.0.0"
+failure = "0.1.1"
